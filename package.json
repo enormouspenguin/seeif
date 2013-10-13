@@ -1,23 +1,34 @@
 {
     "name": "seeif",
     "version": "0.0.1",
-    "description": "Validation based on validator with sync and async report style",
+    "description": "Chainable validation based on `validator`, `lodash`, `moment` and `type-detect` with syntax almost looks like chai.js combine with sync or async report and non 'throw' ing things around so that you don't have to 'try' and 'catch'.",
     "main": "index.js",
     "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tap ./test"
+    },
+    "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/kimkhanh/seeif.git"
     },
     "dependencies": {
         "lodash":"~2.2.1",
-        "validator":"~1.5.1"
+        "moment":"~2.3.1",
+        "validator":"~1.5.1",
+        "type-detect": "~0.1.1"
     },
     "devDependencies": {
+        "chai":"~1.8.0",
+        "tap": "~0.4.4"
     },
     "engines" : {
         "node" : "~0.10.12",
         "npm" : "~1.2.32"
     },
     "keywords": [
+        "lodash",
+        "moment",
         "validator",
+        "type-detect",
         "seeif",
         "validate",
         "validation",
