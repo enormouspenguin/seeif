@@ -1,6 +1,6 @@
 {
     "name": "seeif",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Chainable validation based on `validator`, `lodash`, `moment` and `type-detect` with syntax almost looks like chai.js combine with sync or async report and non 'throw' ing things around so that you don't have to 'try' and 'catch'.",
     "main": "index.js",
     "scripts": {
